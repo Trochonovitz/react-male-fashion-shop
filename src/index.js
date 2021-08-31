@@ -4,11 +4,12 @@ import App from './App';
 
 import { worker } from './mocks/Browser';
 
-worker.start();
+worker.start().then(() => {
+  ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+  )
+});
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
