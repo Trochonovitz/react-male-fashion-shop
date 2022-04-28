@@ -24,7 +24,7 @@ const InstagramComponent = () => {
     <StyledWrappper>
       <StyledGalleryWrapper>
         {images.map((photo) => (
-          <StyledImg src={photo} alt="andrzej" />
+          <StyledImg src={photo} key={`${photo}`} alt="visualisation" />
         ))}
       </StyledGalleryWrapper>
 

@@ -12,7 +12,7 @@ const RegularHeaderTitle = ({ children }) => (
 );
 
 RegularHeaderTitle.propTypes = {
-  children: PropTypes.objectOf(),
+  children: PropTypes.node,
 };
 
 RegularHeaderTitle.defaultProps = {

@@ -1,6 +1,5 @@
 import React from 'react';
 import Timer from 'react-compound-timer';
-
 import RedHeaderTitle from '../RedHeaderTitle/RedHeaderTitle';
 import ThickButton from '../ThickButton/ThickButton';
 

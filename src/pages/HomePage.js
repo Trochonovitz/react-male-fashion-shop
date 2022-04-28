@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
-
 import MainTemplate from '../templates/MainTemplate/MainTemplate';
 import Slider from '../components/Slider/Slider';
 import CategoriesCard from '../components/CategoriesCard/CategoriesCard';

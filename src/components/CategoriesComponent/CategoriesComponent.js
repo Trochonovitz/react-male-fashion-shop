@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import { StyledWrapper } from './CategoriesComponentStyle';
 
 const CategoriesComponent = ({ children }) => (
@@ -8,7 +7,7 @@ const CategoriesComponent = ({ children }) => (
 );
 
 CategoriesComponent.propTypes = {
-  children: PropTypes.objectOf(),
+  children: PropTypes.node,
 };
 
 CategoriesComponent.defaultProps = {

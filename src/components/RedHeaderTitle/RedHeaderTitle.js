@@ -14,7 +14,7 @@ const RedHeaderTitle = ({ children }) => (
 );
 
 RedHeaderTitle.propTypes = {
-  children: PropTypes.objectOf(),
+  children: PropTypes.node,
 };
 
 RedHeaderTitle.defaultProps = {
